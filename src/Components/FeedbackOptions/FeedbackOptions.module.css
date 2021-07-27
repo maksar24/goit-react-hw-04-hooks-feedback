@@ -1,0 +1,17 @@
+.list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.item {
+}
+
+.button {
+  margin-right: 25px;
+  background-color: burlywood;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+}
