@@ -34,7 +34,7 @@ function App() {
   };
 
   const countPositiveFeedbackPercentage = () => {
-    return Math.ceil((good * 100) / title);
+    return Math.round((good * 100) / title);
   };
 
   const title = countTotalFeedback();
